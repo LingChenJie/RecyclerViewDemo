@@ -11,20 +11,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="click"
-        android:text="打开进度Activity"/>
+        android:text="打开显示帧动画的Activity"/>
 
     <Button
         android:id="@+id/bt_recycleview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="click"
-        android:text="打开进度RecycleView"/>
+        android:text="打开基本操作的RecycleView"/>
 
     <Button
         android:id="@+id/bt_complex_recycleview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="click"
-        android:text="打开进度RecycleView"/>
+        android:text="打开显示不同item的RecycleView"/>
 
 </LinearLayout>
