@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">RecycleViewDemo</string>
+    <string name="title_activity_loading">LoadingActivity</string>
+    <string name="title_activity_recycle_view">RecycleViewActivity</string>
+    <string name="title_activity_staggered">StaggeredActivity</string>
+
+    <string name="action_listview">listView</string>
+    <string name="action_gridview">gridView</string>
+    <string name="action_hor_listview">listHorView</string>
+    <string name="action_hor_gridview">gridHorView</string>
+    <string name="staggeredgridview">staggeredgridview</string>
+
+    <string name="add">添加</string>
+    <string name="delete">删除</string>
+    <string name="title_activity_complex_recycle_view_actvity">ComplexRecycleViewActvity</string>
+</resources>

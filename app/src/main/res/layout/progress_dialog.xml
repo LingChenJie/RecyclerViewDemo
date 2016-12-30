@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+    <RelativeLayout
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/wait_dialog_shape">
+
+        <ImageView
+            android:id="@+id/loadingIv"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_margin="20dp"
+            android:layout_marginBottom="0dp"
+            android:src="@drawable/load"/>
+        <!--	android:layout_centerInParent="true"-->
+        <TextView
+            android:id="@+id/loadingTv"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="加载中..."
+            android:textColor="#ffff"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+</RelativeLayout>
